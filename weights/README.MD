@@ -1,1 +1,1 @@
-Please refer to the google drive links given README.MD file of parent directory.
+Please refer to the google drive links given in README.MD file of parent directory.
