@@ -1,5 +1,3 @@
-# msds19009_COVID19_DLSpring2020
-This repository contains code and results for COVID-19 classification assignment by Deep Learning Spring 2020 course offered at Information Technology University, Lahore, Pakistan. This assignment is only for learning purposes and is not intended to be used for clinical purposes.
 
 ## Identification of COVID-19 patient by using chest X-ray images by exploiting Transfer Learning on VGG-16 and ResNet-18 models(pre-trained on ImageNet Dataset)
 ## Data
