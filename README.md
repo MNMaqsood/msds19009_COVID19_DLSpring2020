@@ -1,8 +1,8 @@
 
-# Identification of COVID-19 patients from chest X-ray images by exploiting Transfer Learning
-In this assignment, VGG-16 and ResNet-18 networks were fine tuned to identify Covid-19 patients from their chest X-ray images. 
+# Identification of COVID-19 patients from chest X-ray images
+In this assignment, deep neural networks were used to identify Covid-19 patients from their chest X-ray image. Transfer learning was exploited to decrease the training time and increase the network peformance. VGG-16 and ResNet-18 networks, pre-trained on ImageNet Dataset, were fine tuned for this puropose. 
 # Part-A: Classification of Normal Vs Infected Classes
-In this task we'll classify images to only two classes normal or infected. The code for this part is available in `covid19_classification.ipynb`
+In this task, we'll classify images to only two classes normal or infected. The code for this part is available in `covid19_classification.ipynb`
 ## Data
 The dataset used in Part-A of this assignment can be found at this [Gdrive Link](https://drive.google.com/a/itu.edu.pk/uc?id=1-HQQciKYfwAO3oH7ci6zhg45DduvkpnK)
 The images were downscaled to 256 by 256 pixels using *LANCZOS* interpolation
