@@ -1,7 +1,7 @@
 
 # Identification of COVID-19 patients from chest X-ray images
 In this assignment, deep neural networks were used to identify Covid-19 patients from their chest X-ray image. Transfer learning was exploited to decrease the training time and increase the network peformance. VGG-16 and ResNet-18 networks, pre-trained on ImageNet Dataset, were fine tuned for this puropose. 
-# Part-A: Classification of Normal Vs Infected Classes
+# Part-A: Classification into Normal and Infected Classes
 In this task, we'll classify images to only two classes normal or infected. The code for this part is available in `covid19_classification.ipynb`
 ## Data
 The dataset used in Part-A of this assignment can be found at this [Gdrive Link](https://drive.google.com/a/itu.edu.pk/uc?id=1-HQQciKYfwAO3oH7ci6zhg45DduvkpnK)
@@ -62,7 +62,7 @@ Confusion Matrix:
 #### Weights
 Weights of this model are at [this link](https://drive.google.com/open?id=1-1Xfgw9EVeRjkRRA6In07UbE7DfW1rel)
 
-# Part B: Classification of X-ray image into Normal,Covid and Pneumonia Classes
+# Part B: Classification into Normal,Covid and Pneumonia Classes
 In this experiment, we'll classify an X-ray image into normal, pneumonia or covid. Covid being a special case of pneumonia so any image belonging to this class will carry the label of both covid and pneumonia. In this way, this is a multilabel multicalss classification problem. We'll leverage the pre-trained VGG-16 and ResNet-18 network trained on ImageNet dataset. The dataset used for training has a high class imbalance, so we'll also alpha balanced [Focal Loss](https://arxiv.org/pdf/1708.02002.pdf) besides Binary Cross Entropy Loss. The code for this part is available in `covid19_classification_focal_loss.ipynb`
 ## Dataset
 Dataset consists of labeled train and validation set while unlabeled test set.
